@@ -1,0 +1,27 @@
+.flex{
+    display: flex;
+}
+.spb{
+    justify-content: space-between;
+}
+.spa{
+    justify-content: space-around;
+}
+.center{
+    justify-content: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.invert{
+    filter: invert(1);
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: black;
+    border-radius: 10px; /* Adjust border radius as needed */
+}
+::-webkit-scrollbar-thumb {
+    background-color: gray; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Match the border radius */
+}
