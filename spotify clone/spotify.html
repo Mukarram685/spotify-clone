@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+</head>
+<link rel="stylesheet" href="spotify.css">
+<link rel="stylesheet" href="spotifyutility.css">
+
+<body>
+    <div class="full">
+        <div class="left">
+            <div class="logo">
+                <div class="flex spb">
+                    <img class="spotifylogo invert" src="spotifylogo.svg" alt="spotifylogo">
+                    <img class="cross invert" src="cross.png" alt="cross">
+                </div>
+                <div class="home">
+                    <div> <img class="homeicon invert" src="home.svg" alt="home"><span>Home </span></div>
+                    <img class="searchicon invert" src="search.svg" alt="search"><span>search</span>
+                </div>
+                <div class="libary flex">
+                    <img class="libraylogo invert" src="libary.svg" alt="libary"><span>Your library</span>
+                </div>
+                <div class="create">
+                    <h2>create your first playlist</h2>
+                </div>
+                <div class="songsname">
+                    <ul>
+                        <li class="flex spb"><img class="invert" src="music.svg" alt="music">
+                            <div class="s1">Songs</div>
+                            <div><img class="invert play1" src="icons8-play-50.png" alt="play">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="options">
+                    <ul>
+                        <li>Legal</li>
+                        <li>Safety & Privacy Center </li>
+                        <li>Privacy Policy</li>
+                        <li>Cookies</li>
+                        <li>About Ads</li>
+                        <li>Acessibility</li>
+                    </ul>
+                </div>
+                <div class="globeimg">
+                    <button class="flex Center"><img class="glob" src="globe.svg" alt="globe"><span> English
+                        </span></button>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <nav>
+                <header class="flex spb">
+                    <div class="flex hamgap">
+                        <img class="hamburger invert" src="hamburger.svg" alt="hamburger">
+                        <button class="b1">
+                            < </button>
+                                <button class="b2">></button>
+                    </div>
+                    <div>
+                        <button class="b3 singup">Sign up</button>
+                        <button class="b4 singup">Log in</button>
+                    </div>
+                </header>
+            </nav>
+            <div>
+                <div class="songsdiv">
+                    <h2 style="margin-left: 2vw;">Spotify Playlists</h2>
+                    <div class="songs flex wrap spb">
+                        <div class="song1 songdiv">
+                            <div class="imganddiv"> <img class="s1" src="song1.jpeg" alt="song 1">
+                                <div>Sleep</div>
+                                <div>Gentle Ambient piano to help you fall asleep</div>
+                            </div>
+                        </div>
+                        <div class="song2 songdiv">
+                            <div class="imganddiv">
+                                <div> <img src="song2.jpeg" alt="song 2"> </div>
+                                <div>Day Dreamers</div>
+                                <div>Drift away with enthiraling instrumentals</div>
+                            </div>
+                        </div>
+                        <div class="song3 songdiv">
+                            <div class="imganddiv"> <img class="s1" src="song1.jpeg" alt="song 1">
+                                <div class="margin">Sleep</div>
+                                <div class="margin">Gentle Ambient piano to help you fall asleep</div>
+                            </div>
+                        </div>
+                        <div class="song4 songdiv">
+                            <div class="imganddiv">
+                                <div> <img src="song2.jpeg" alt="song 2"> </div>
+                                <div>Day Dreamers</div>
+                                <div>Drift away with enthiraling instrumentals</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="playbuttons flex">
+                <div class="songinfo">
+
+                </div>
+                <div class="playimg">
+                    <img class="previous" src="previous-50.png" alt="previous">
+                    <img id="play2" src="pause.png" alt="play">
+                    <img class="next" src="icons8-next-50.png" alt="next">
+                    <div class="songtime"></div>
+                </div>
+                <div class="bar">
+                    <div class="scroll">
+                        <div class="circle"></div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+
+</body>
+
+</html>

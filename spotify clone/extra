@@ -1,0 +1,20 @@
+ <div class="songs flex wrap spb">
+                        <div class="songs1 songdiv"><img class="s1" src="song1.jpeg" alt="song 1">
+                            <div>Sleep</div>
+                            <div>Gentle Ambient piano to help you fall asleep</div>
+                        </div>
+                        <div class="songs1 songdiv">
+                            <div> <img src="song2.jpeg" alt="song 2"> </div>
+                            <div>Day Dreamers</div>
+                            <div>Drift away with enthiraling instrumentals</div>
+                        </div>
+                        <div class="songs1 songdiv"><img class="s1" src="song1.jpeg" alt="song 1">
+                            <div>Sleep</div>
+                            <div >Gentle Ambient piano to help you fall asleep</div>
+                        </div>
+                        <div class="songs1 songdiv">
+                            <div> <img src="song2.jpeg" alt="song 2"> </div>
+                            <div class="flex wrap">Day Dreamers</div>
+                            <div>Drift away with enthiraling instrumentals</div>
+                        </div>
+                    </div>
